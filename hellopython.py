@@ -18,6 +18,15 @@ if i >= 18:
 else:
   print("MI DISSOCIO")
 
+age = 28
+
+if age < 19:
+  print('The person is a child')
+elif age < 70:
+  print('The person is an adult')
+else:
+  print('The person is a senior citizen')
+
 # declaring a function
 def add_two_numbers(x, y):
   total = x + y
